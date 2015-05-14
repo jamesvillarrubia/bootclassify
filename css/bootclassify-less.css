@@ -1,0 +1,379 @@
+.tx-oppgray,
+.tx-hv-oppgray:hover,
+.tx-hv-oppgray:hover:visited,
+.tx-vs-oppgray {
+  color: #000000;
+}
+.bg-oppgray,
+.bg-hv-oppgray:hover {
+  background-color: #000000;
+}
+.bd-oppgray,
+.bd-hv-oppgray:hover {
+  border-color: #000000;
+}
+.tx-black,
+.tx-hv-black:hover,
+.tx-hv-black:hover:visited,
+.tx-vs-black {
+  color: #ffffff;
+}
+.bg-black,
+.bg-hv-black:hover {
+  background-color: #ffffff;
+}
+.bd-black,
+.bd-hv-black:hover {
+  border-color: #ffffff;
+}
+.tx-white,
+.tx-hv-white:hover,
+.tx-hv-white:hover:visited,
+.tx-vs-white {
+  color: #cccccc;
+}
+.bg-white,
+.bg-hv-white:hover {
+  background-color: #cccccc;
+}
+.bd-white,
+.bd-hv-white:hover {
+  border-color: #cccccc;
+}
+.tx-darkgray,
+.tx-hv-darkgray:hover,
+.tx-hv-darkgray:hover:visited,
+.tx-vs-darkgray {
+  color: #f6f6f6;
+}
+.bg-darkgray,
+.bg-hv-darkgray:hover {
+  background-color: #f6f6f6;
+}
+.bd-darkgray,
+.bd-hv-darkgray:hover {
+  border-color: #f6f6f6;
+}
+.tx-gray,
+.tx-hv-gray:hover,
+.tx-hv-gray:hover:visited,
+.tx-vs-gray {
+  color: #e31818;
+}
+.bg-gray,
+.bg-hv-gray:hover {
+  background-color: #e31818;
+}
+.bd-gray,
+.bd-hv-gray:hover {
+  border-color: #e31818;
+}
+.tx-red,
+.tx-hv-red:hover,
+.tx-hv-red:hover:visited,
+.tx-vs-red {
+  color: #0f2446;
+}
+.bg-red,
+.bg-hv-red:hover {
+  background-color: #0f2446;
+}
+.bd-red,
+.bd-hv-red:hover {
+  border-color: #0f2446;
+}
+.tx-navy,
+.tx-hv-navy:hover,
+.tx-hv-navy:hover:visited,
+.tx-vs-navy {
+  color: #00aef3;
+}
+.bg-navy,
+.bg-hv-navy:hover {
+  background-color: #00aef3;
+}
+.bd-navy,
+.bd-hv-navy:hover {
+  border-color: #00aef3;
+}
+.tx-blue,
+.tx-hv-blue:hover,
+.tx-hv-blue:hover:visited,
+.tx-vs-blue {
+  color: #00aef3;
+}
+.bg-blue,
+.bg-hv-blue:hover {
+  background-color: #00aef3;
+}
+.bd-blue,
+.bd-hv-blue:hover {
+  border-color: #00aef3;
+}
+.bd-xxl {
+  border-width: 15px;
+  border-style: solid;
+}
+.bd-xl {
+  border-width: 10px;
+  border-style: solid;
+}
+.bd-lg {
+  border-width: 5px;
+  border-style: solid;
+}
+.bd-md {
+  border-width: 4px;
+  border-style: solid;
+}
+.bd-sm {
+  border-width: 3px;
+  border-style: solid;
+}
+.bd-xs {
+  border-width: 2px;
+  border-style: solid;
+}
+.bd-xxs {
+  border-width: 1px;
+  border-style: solid;
+}
+.bd-zero {
+  border-width: 0px;
+}
+.bd-xxl.bd-right {
+  border-right-width: 15px;
+}
+.bd-xxl.bd-left {
+  border-left-width: 15px;
+}
+.bd-xxl.bd-top {
+  border-top-width: 15px;
+}
+.bd-xxl.bd-bottom {
+  border-bottom-width: 15px;
+}
+.bd-xl.bd-right {
+  border-right-width: 10px;
+}
+.bd-xl.bd-left {
+  border-left-width: 10px;
+}
+.bd-xl.bd-top {
+  border-top-width: 10px;
+}
+.bd-xl.bd-bottom {
+  border-bottom-width: 10px;
+}
+.bd-lg.bd-right {
+  border-right-width: 5px;
+}
+.bd-lg.bd-left {
+  border-left-width: 5px;
+}
+.bd-lg.bd-top {
+  border-top-width: 5px;
+}
+.bd-lg.bd-bottom {
+  border-bottom-width: 5px;
+}
+.bd-md.bd-right {
+  border-right-width: 4px;
+}
+.bd-md.bd-left {
+  border-left-width: 4px;
+}
+.bd-md.bd-top {
+  border-top-width: 4px;
+}
+.bd-md.bd-bottom {
+  border-bottom-width: 4px;
+}
+.bd-sm.bd-right {
+  border-right-width: 3px;
+}
+.bd-sm.bd-left {
+  border-left-width: 3px;
+}
+.bd-sm.bd-top {
+  border-top-width: 3px;
+}
+.bd-sm.bd-bottom {
+  border-bottom-width: 3px;
+}
+.bd-xs.bd-right {
+  border-right-width: 2px;
+}
+.bd-xs.bd-left {
+  border-left-width: 2px;
+}
+.bd-xs.bd-top {
+  border-top-width: 2px;
+}
+.bd-xs.bd-bottom {
+  border-bottom-width: 2px;
+}
+.bd-xxs.bd-right {
+  border-right-width: 1px;
+}
+.bd-xxs.bd-left {
+  border-left-width: 1px;
+}
+.bd-xxs.bd-top {
+  border-top-width: 1px;
+}
+.bd-xxs.bd-bottom {
+  border-bottom-width: 1px;
+}
+.tx-left-not-xs {
+  text-align: left;
+}
+.tx-left-not-sm {
+  text-align: left;
+}
+.tx-left-not-md {
+  text-align: left;
+}
+.tx-left-not-lg {
+  text-align: left;
+}
+.tx-center-not-xs {
+  text-align: center;
+}
+.tx-center-not-sm {
+  text-align: center;
+}
+.tx-center-not-md {
+  text-align: center;
+}
+.tx-center-not-lg {
+  text-align: center;
+}
+.tx-right-not-xs {
+  text-align: right;
+}
+.tx-right-not-sm {
+  text-align: right;
+}
+.tx-right-not-md {
+  text-align: right;
+}
+.tx-right-not-lg {
+  text-align: right;
+}
+.tx-justify-not-xs {
+  text-align: justify;
+}
+.tx-justify-not-sm {
+  text-align: justify;
+}
+.tx-justify-not-md {
+  text-align: justify;
+}
+.tx-justify-not-lg {
+  text-align: justify;
+}
+@media (min-width: 0) and (max-width: 768px) {
+  .tx-justify-not-xs {
+    text-align: inherit;
+  }
+  .tx-right-not-xs {
+    text-align: inherit;
+  }
+  .tx-center-not-xs {
+    text-align: inherit;
+  }
+  .tx-left-not-xs {
+    text-align: inherit;
+  }
+  .tx-justify-xs {
+    text-align: justify;
+  }
+  .tx-right-xs {
+    text-align: right;
+  }
+  .tx-center-xs {
+    text-align: center;
+  }
+  .tx-left-xs {
+    text-align: left;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .tx-justify-not-sm {
+    text-align: inherit;
+  }
+  .tx-right-not-sm {
+    text-align: inherit;
+  }
+  .tx-center-not-sm {
+    text-align: inherit;
+  }
+  .tx-left-not-sm {
+    text-align: inherit;
+  }
+  .tx-justify-sm {
+    text-align: justify;
+  }
+  .tx-right-sm {
+    text-align: right;
+  }
+  .tx-center-sm {
+    text-align: center;
+  }
+  .tx-left-sm {
+    text-align: left;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .tx-justify-not-md {
+    text-align: inherit;
+  }
+  .tx-right-not-md {
+    text-align: inherit;
+  }
+  .tx-center-not-md {
+    text-align: inherit;
+  }
+  .tx-left-not-md {
+    text-align: inherit;
+  }
+  .tx-justify-md {
+    text-align: justify;
+  }
+  .tx-right-md {
+    text-align: right;
+  }
+  .tx-center-md {
+    text-align: center;
+  }
+  .tx-left-md {
+    text-align: left;
+  }
+}
+@media (min-width: 1200px) and (max-width: 7000px) {
+  .tx-justify-not-lg {
+    text-align: inherit;
+  }
+  .tx-right-not-lg {
+    text-align: inherit;
+  }
+  .tx-center-not-lg {
+    text-align: inherit;
+  }
+  .tx-left-not-lg {
+    text-align: inherit;
+  }
+  .tx-justify-lg {
+    text-align: justify;
+  }
+  .tx-right-lg {
+    text-align: right;
+  }
+  .tx-center-lg {
+    text-align: center;
+  }
+  .tx-left-lg {
+    text-align: left;
+  }
+}
