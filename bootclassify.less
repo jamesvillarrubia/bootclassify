@@ -15,15 +15,14 @@
 @size-list: "xxs",		"xs",		"sm",		"md",		"lg",		"xl",		"xxl";
 @bd-list: 	1,			2,			3,			4,			5,			10,			15;
 
-/*
-* These are the minimums and maximums on screen widths.
-* The 0 and 7000 are defaults in order to provide outer bounds in the loop.
-*/
+
+// These are the minimums and maximums on screen widths.
+// The 0 and 7000 are defaults in order to provide outer bounds in the loop.
 @min-list: 		0,				"@{screen-sm}",		"@{screen-md}",		"@{screen-lg}";
 @max-list: 		"@{screen-sm}",	"@{screen-md}",		"@{screen-lg}",		"7000px";
 
 //These are the sizes that can be applied to class to match bootstrap widths
-@width-list: 	"xs",			"sm",				"md",			"lg"			"xl";
+@width-list: 	"xs",			"sm",				"md",			"lg";
 
 //These are the directions lists, full and abbreviated
 @dir-list:		"left",			"right",			"top",			"bottom";
@@ -45,7 +44,7 @@
  //	.bg-hv-blue		- make background blue on hover
  //	.bd-blue		- make border blue
  //	.bd-hv-blue		- make border blue on hover
-	.c(@i: length(@cnames)) when (@c > 0) {
+	.c(@c: length(@cnames)) when (@c > 0) {
 	    @name:  e(extract(@cnames, @c));
 	    @value: e(extract(@cvals, @c));
 	    .tx-@{name},

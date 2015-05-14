@@ -1,100 +1,103 @@
+/***************************************
+ * Color Builder
+ **************************************/
 .tx-oppgray,
 .tx-hv-oppgray:hover,
 .tx-hv-oppgray:hover:visited,
 .tx-vs-oppgray {
-  color: #000000;
+  color: #262626;
 }
 .bg-oppgray,
 .bg-hv-oppgray:hover {
-  background-color: #000000;
+  background-color: #262626;
 }
 .bd-oppgray,
 .bd-hv-oppgray:hover {
-  border-color: #000000;
+  border-color: #262626;
 }
 .tx-black,
 .tx-hv-black:hover,
 .tx-hv-black:hover:visited,
 .tx-vs-black {
-  color: #ffffff;
+  color: #000000;
 }
 .bg-black,
 .bg-hv-black:hover {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 .bd-black,
 .bd-hv-black:hover {
-  border-color: #ffffff;
+  border-color: #000000;
 }
 .tx-white,
 .tx-hv-white:hover,
 .tx-hv-white:hover:visited,
 .tx-vs-white {
-  color: #cccccc;
+  color: #ffffff;
 }
 .bg-white,
 .bg-hv-white:hover {
-  background-color: #cccccc;
+  background-color: #ffffff;
 }
 .bd-white,
 .bd-hv-white:hover {
-  border-color: #cccccc;
+  border-color: #ffffff;
 }
 .tx-darkgray,
 .tx-hv-darkgray:hover,
 .tx-hv-darkgray:hover:visited,
 .tx-vs-darkgray {
-  color: #f6f6f6;
+  color: #cccccc;
 }
 .bg-darkgray,
 .bg-hv-darkgray:hover {
-  background-color: #f6f6f6;
+  background-color: #cccccc;
 }
 .bd-darkgray,
 .bd-hv-darkgray:hover {
-  border-color: #f6f6f6;
+  border-color: #cccccc;
 }
 .tx-gray,
 .tx-hv-gray:hover,
 .tx-hv-gray:hover:visited,
 .tx-vs-gray {
-  color: #e31818;
+  color: #f6f6f6;
 }
 .bg-gray,
 .bg-hv-gray:hover {
-  background-color: #e31818;
+  background-color: #f6f6f6;
 }
 .bd-gray,
 .bd-hv-gray:hover {
-  border-color: #e31818;
+  border-color: #f6f6f6;
 }
 .tx-red,
 .tx-hv-red:hover,
 .tx-hv-red:hover:visited,
 .tx-vs-red {
-  color: #0f2446;
+  color: #e31818;
 }
 .bg-red,
 .bg-hv-red:hover {
-  background-color: #0f2446;
+  background-color: #e31818;
 }
 .bd-red,
 .bd-hv-red:hover {
-  border-color: #0f2446;
+  border-color: #e31818;
 }
 .tx-navy,
 .tx-hv-navy:hover,
 .tx-hv-navy:hover:visited,
 .tx-vs-navy {
-  color: #00aef3;
+  color: #0f2446;
 }
 .bg-navy,
 .bg-hv-navy:hover {
-  background-color: #00aef3;
+  background-color: #0f2446;
 }
 .bd-navy,
 .bd-hv-navy:hover {
-  border-color: #00aef3;
+  border-color: #0f2446;
 }
 .tx-blue,
 .tx-hv-blue:hover,
@@ -110,6 +113,9 @@
 .bd-hv-blue:hover {
   border-color: #00aef3;
 }
+/***************************************
+ * Border Builder
+ **************************************/
 .bd-xxl {
   border-width: 15px;
   border-style: solid;
@@ -141,90 +147,93 @@
 .bd-zero {
   border-width: 0px;
 }
-.bd-xxl.bd-right {
+.bd-right-xxl {
   border-right-width: 15px;
 }
-.bd-xxl.bd-left {
+.bd-left-xxl {
   border-left-width: 15px;
 }
-.bd-xxl.bd-top {
+.bd-top-xxl {
   border-top-width: 15px;
 }
-.bd-xxl.bd-bottom {
+.bd-bottom-xxl {
   border-bottom-width: 15px;
 }
-.bd-xl.bd-right {
+.bd-right-xl {
   border-right-width: 10px;
 }
-.bd-xl.bd-left {
+.bd-left-xl {
   border-left-width: 10px;
 }
-.bd-xl.bd-top {
+.bd-top-xl {
   border-top-width: 10px;
 }
-.bd-xl.bd-bottom {
+.bd-bottom-xl {
   border-bottom-width: 10px;
 }
-.bd-lg.bd-right {
+.bd-right-lg {
   border-right-width: 5px;
 }
-.bd-lg.bd-left {
+.bd-left-lg {
   border-left-width: 5px;
 }
-.bd-lg.bd-top {
+.bd-top-lg {
   border-top-width: 5px;
 }
-.bd-lg.bd-bottom {
+.bd-bottom-lg {
   border-bottom-width: 5px;
 }
-.bd-md.bd-right {
+.bd-right-md {
   border-right-width: 4px;
 }
-.bd-md.bd-left {
+.bd-left-md {
   border-left-width: 4px;
 }
-.bd-md.bd-top {
+.bd-top-md {
   border-top-width: 4px;
 }
-.bd-md.bd-bottom {
+.bd-bottom-md {
   border-bottom-width: 4px;
 }
-.bd-sm.bd-right {
+.bd-right-sm {
   border-right-width: 3px;
 }
-.bd-sm.bd-left {
+.bd-left-sm {
   border-left-width: 3px;
 }
-.bd-sm.bd-top {
+.bd-top-sm {
   border-top-width: 3px;
 }
-.bd-sm.bd-bottom {
+.bd-bottom-sm {
   border-bottom-width: 3px;
 }
-.bd-xs.bd-right {
+.bd-right-xs {
   border-right-width: 2px;
 }
-.bd-xs.bd-left {
+.bd-left-xs {
   border-left-width: 2px;
 }
-.bd-xs.bd-top {
+.bd-top-xs {
   border-top-width: 2px;
 }
-.bd-xs.bd-bottom {
+.bd-bottom-xs {
   border-bottom-width: 2px;
 }
-.bd-xxs.bd-right {
+.bd-right-xxs {
   border-right-width: 1px;
 }
-.bd-xxs.bd-left {
+.bd-left-xxs {
   border-left-width: 1px;
 }
-.bd-xxs.bd-top {
+.bd-top-xxs {
   border-top-width: 1px;
 }
-.bd-xxs.bd-bottom {
+.bd-bottom-xxs {
   border-bottom-width: 1px;
 }
+/***************************************
+ * Allignment Builder
+ **************************************/
 .tx-left-not-xs {
   text-align: left;
 }
