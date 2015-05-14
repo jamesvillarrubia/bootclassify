@@ -1,0 +1,238 @@
+// COLOR BUILDER
+// 
+$blue: #00aef3;
+$navy: #0f2446;
+$red: #e31818;
+$gray: #f6f6f6;
+$darkgray: #CCCCCC;
+$white: #ffffff;
+$black: #000000;
+$oppgray: #262626;
+
+$colors-list: (
+	"blue": $blue,
+	"navy": $navy,
+	"red": $red,
+	"gray": $gray,
+	"darkgray": $darkgray,
+	"white": $white,
+	"black": $black,
+	"oppgray": $oppgray
+);
+
+
+$font-family-sans-serif:  "Lato", Helvetica, sans-serif;
+
+//** Load fonts from this directory.
+$icon-font-path:          "../fonts/";
+//** File name for all font files.
+$icon-font-name:          "glyphicons-halflings-regular";
+//** Element ID within SVG icon file.
+$icon-font-svg-id:        "glyphicons_halflingsregular";
+
+
+
+@each $cname, $cval in $colors-list {
+    .tx-#{$cname},
+    .tx-hv-#{$cname}:hover,.tx-hv-#{$cname}:hover:visited,
+    .tx-vs-#{$cname}:visited{
+    	color: $cval;
+    }
+    .bg-#{$cname},
+    .bg-hv-#{$cname}:hover{
+    	background-color: #{$cval};
+    }
+	.bd-#{$cname},
+    .bd-hv-#{$cname}:hover{
+    	border-color: #{$cval};
+    }
+}
+
+
+// BORDER BUILDER
+$bd-list: (
+	"xxs": 1,
+	"xs": 2,
+	"sm": 3,
+	"md": 4,
+	"lg": 5,
+	"xl": 6,
+	"xxl": 7
+);
+@each $bdname, $bdval in $bd-list {
+	.bd-#{$bdname}{
+    	border-width: #{$bdval}px;
+    	border-style: solid;
+    }
+}
+.bd-zero{
+	border-width: 0px;
+}
+@each $bdname, $bdval in $bd-list {
+	.bd-#{$bdname}{
+    	&.bd-right{ border-right-width:#{$bdval}px;}
+    	&.bd-left{ border-left-width:#{$bdval}px;}
+    	&.bd-top{ border-top-width:#{$bdval}px;}
+    	&.bd-bottom{ border-bottom-width:#{$bdval}px;}
+	}
+}
+
+
+// SPACING BUILDER
+$sp-list: (
+	"xxs": 5,
+	"xs": 10,
+	"sm": 15,
+	"md": 20,
+	"lg": 30,
+	"xl": 50,
+	"xxl": 100
+);
+@each $spname, $spval in $sp-list {
+	.mg-#{$spname}{
+		margin-left: #{$spval}px;
+		margin-right: #{$spval}px;
+		margin-top: #{$spval}px;
+		margin-bottom: #{$spval}px;
+	}
+	.mg-v-#{$spname}{
+		margin-top: #{$spval}px;
+		margin-bottom: #{$spval}px;
+	}
+	.mg-h-#{$spname}{
+		margin-left: #{$spval}px;
+		margin-right: #{$spval}px;
+	}
+	.pd-#{$spname}{
+		padding-left: #{$spval}px;
+		padding-right: #{$spval}px;
+		padding-top: #{$spval}px;
+		padding-bottom: #{$spval}px;
+	}
+	.pd-v-#{$spname}{
+		padding-top: #{$spval}px;
+		padding-bottom: #{$spval}px;
+	}
+	.pd-h-#{$spname}{
+		padding-left: #{$spval}px;
+		padding-right: #{$spval}px;
+	}
+
+}
+
+
+
+//IMAGE MANAGEMENT
+.bg-cover{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -ms-behavior: url(/themes/site_themes/dem2015/css/backgroundsize.min.htc);
+}
+.bg-cc{
+	background-position: center center;
+}
+
+.dtran, .default-transition{
+	transition: 0.15s ease;
+}
+
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+
+
+
+// COLUMN CENTERING 
+.row-same-height {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.col-xs-height {
+	display: table-cell;
+	float: none !important;
+	height: 100%;
+}
+
+
+@media (min-width: 768px) {
+	.col-sm-height {
+		display: table-cell;
+		float: none !important;
+			height: 100%;
+	}
+}
+@media (min-width: 992px) {
+	.col-md-height {
+		display: table-cell;
+		float: none !important;
+			height: 100%;
+	}
+}
+@media (min-width: 1200px) {
+	.col-md-height {
+		display: table-cell;
+		float: none !important;
+			height: 100%;
+	}
+}
+
+@media (max-width:768px){
+	.container-xs-full{
+		margin:auto;
+		padding:0px;
+		width:100%;
+	}
+}
+
+@media (max-width: 992px) {
+	.container-sm-full{
+		margin:auto;
+		padding:0px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.container-md-full{
+		margin:auto;
+		padding:0px;
+	}
+}
+.container-full{
+	margin:auto;
+	padding:0px;
+}
+
+
+
+/* firefox fix */
+.img-responsive {
+	width: 100%;
+}
+
+/* vertical alignment styles */
+.col-top {
+	vertical-align:top;
+}
+.col-middle {
+	vertical-align:middle;
+}
+.col-bottom {
+	vertical-align:bottom;
+}
+
+
+
+
+
